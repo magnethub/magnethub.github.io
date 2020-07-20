@@ -12,7 +12,7 @@
 
 /* line 8, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_extends.scss */
 .form-contact .form-group .btn_1 {
-  background-image: linear-gradient(to left, #fff 0%, #fff 51%, #fff 100%);
+  background-image: linear-gradient(to left, #7289DA 0%, #7289DA 51%, #7289DA 100%);
 }
 
 /**************** extend css start ****************/
@@ -503,11 +503,11 @@ ul {
   display: inline-block;
   padding: 18.5px 40px;
   border-radius: 5px;
-  background-color: #fff;
+  background-color: #7289DA;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  color: #1a1a1a;
+  color: #fff !important;
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
@@ -521,6 +521,7 @@ ul {
   color: #fff !important;
   border: 1px solid #7289DA;
   background-position: right center;
+  border-radius: 30px;
 }
 
 @media (max-width: 576px) {
@@ -2521,14 +2522,14 @@ ul {
 
 /* line 76, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_banner.scss */
 .banner_part .banner_text .banner_btn_1 {
-  color: #0ab6ff;
+  color: #7289DA;
   border: 0px solid transparent;
   margin-right: 28px;
 }
 
 /* line 80, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_banner.scss */
 .banner_part .banner_text .banner_btn_1:hover {
-  background-color: #0ab6ff !important;
+  background-color: #7289DA !important;
   color: #fff;
 }
 
@@ -2541,7 +2542,7 @@ ul {
 
 /* line 91, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_banner.scss */
 .banner_part .banner_text .banner_btn_2:hover {
-  background-color: #0ab6ff !important;
+  background-color: #fff !important;
   color: #fff;
   border: 1px solid transparent;
 }
@@ -3420,7 +3421,7 @@ ul {
 
 /* line 51, ../../01 cl html template/03_jun 2019/184_SAAS_template/sass/_cta_part.scss */
 .cta_part .banner_btn_2:hover {
-  background-color: #0ab6ff !important;
+  background-color: #7289DA !important;
   color: #fff;
   border: 1px solid transparent;
 }
